@@ -186,7 +186,7 @@ export default function PasswordCheckPage() {
                                         <span className="flex items-center"><span className="mr-2">•</span>Make it at least <span className="font-bold text-yellow-700 mx-1">12</span> characters</span>
                                     )}
                                     {result.features.has_password === 1 && (
-                                        <span className="flex items-center"><span className="mr-2">•</span>Avoid using <span className="font-bold text-yellow-700 mx-1">common words</span> like "password"</span>
+                                        <span className="flex items-center"><span className="mr-2">•</span>Avoid using <span className="font-bold text-yellow-700 mx-1">common words</span> like &quot;password&quot;</span>
                                     )}
                                     {result.features.has_admin === 1 && (
                                         <span className="flex items-center"><span className="mr-2">•</span>Avoid using <span className="font-bold text-yellow-700 mx-1">admin</span> in your password</span>
